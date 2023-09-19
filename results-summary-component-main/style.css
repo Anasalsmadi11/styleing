@@ -1,0 +1,108 @@
+section{
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    font-family: 'Hanken Grotesk';
+    /* background-color: #eee; */
+
+}
+
+.child1 ,.child2{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+}
+.child1{
+    background:  linear-gradient(to bottom, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    border-radius: 20px;
+    color: white;
+}
+.child2{
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.child1 .percentage{
+    border-radius: 50%;
+    width: 160px;
+    height: 161px;
+    background:  linear-gradient(to bottom,hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.child1 :nth-child(2) :nth-child(1){
+    font-size: 47px;
+    font-weight: bold;
+}
+.child1 :nth-child(4){
+    text-align: center;
+    font-size: 18px;
+}
+
+.child2 div {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    
+    width: 200px;
+}
+.child2 :nth-child(6){
+justify-content: center;
+}
+.child2 :nth-child(6) button{
+    width: 175px;
+    height: 50px;
+    border-radius: 50px;
+}
+.child2 :nth-child(6) button:hover{
+
+    background-color: blueviolet;
+}
+.child2 div{
+    border-radius: 15px;
+    width: 218px;
+    
+}
+
+.child2 :nth-child(1) span{
+font-weight: bold;
+}
+.child2 :nth-child(2) span{
+    color:rgb(235, 81, 104);
+    padding: 5px;
+
+}
+.child2 :nth-child(3) span{
+    color:rgb(244, 198, 107);
+    padding: 5px;
+}
+.child2 :nth-child(4) span{
+    color:rgb(96, 225, 133);
+    padding: 5px;
+}
+.child2 :nth-child(5) span{
+    color:rgb(84, 117, 224);
+    padding: 5px;
+}
+
+
+/* .child2 :nth-child(2)  {
+
+    background-color:rgb(249, 193, 202) ;
+}
+.child2 :nth-child(3) {
+   
+    background-color:rgb(236, 223, 195) ;
+}
+.child2 :nth-child(4) {
+   
+    background-color:rgb(214, 249, 224) ;
+}
+.child2 :nth-child(5) {
+    background-color:rgb(211, 220, 249) ;
+
+} */
