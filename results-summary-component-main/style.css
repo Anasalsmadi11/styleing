@@ -5,6 +5,7 @@ section{
     display: flex;
     font-family: 'Hanken Grotesk';
     /* background-color: #eee; */
+    margin-top: 50px;
 
 }
 
@@ -57,6 +58,8 @@ justify-content: center;
     width: 175px;
     height: 50px;
     border-radius: 50px;
+   background-color:  hsl(224, 30%, 27%);
+   color: white;
 }
 .child2 :nth-child(6) button:hover{
 
@@ -90,19 +93,19 @@ font-weight: bold;
 }
 
 
-/* .child2 :nth-child(2)  {
+ .child2  .background1  {
 
-    background-color:rgb(249, 193, 202) ;
+    background-color: hsl(0, 76%, 94%) ;
 }
-.child2 :nth-child(3) {
-   
-    background-color:rgb(236, 223, 195) ;
-}
-.child2 :nth-child(4) {
-   
-    background-color:rgb(214, 249, 224) ;
-}
-.child2 :nth-child(5) {
-    background-color:rgb(211, 220, 249) ;
+ .child2  .background2  {
 
-} */
+    background-color:hsl(38, 67%, 88%)
+}
+ .child2  .background3  {
+
+    background-color:hsl(165, 67%, 90%)
+}
+ .child2  .background4  {
+
+    background-color:hsl(234, 70%, 88%)
+}
