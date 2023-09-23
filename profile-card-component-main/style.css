@@ -20,7 +20,7 @@ body{
         font-family: 'Hanken Grotesk';
         font-size: 18px;
         border-radius: 5px;
-        position: relative;
+
         margin-top: 50px;
 
 }
@@ -39,7 +39,7 @@ body{
 .victor{
     border-radius: 50%;
     position: absolute;
-    top: 30%;
+    top: 26%;
   border: solid 5px white
 }
 
