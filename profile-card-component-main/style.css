@@ -39,7 +39,7 @@ body{
 .victor{
     border-radius: 50%;
     position: absolute;
-    top: 26%;
+    /* top: 26%; */
   border: solid 5px white
 }
 
