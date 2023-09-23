@@ -38,7 +38,7 @@ body{
 
 .victor{
     border-radius: 50%;
-    position: absolute;
+    /* position: absolute; */
     /* top: 26%; */
   border: solid 5px white
 }
@@ -54,7 +54,7 @@ body{
     justify-content: center;
 }
 .child1 :nth-child(2){
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
 }
 
 hr{
